@@ -1,0 +1,38 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# ---------------- PyInstaller 构建产物 ----------------
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# ---------------- 运行生成的输出 ----------------
+OUT_PY.DAT
+~$*.xlsx
+计算结果.xlsx
+计算结果.csv
+
+# ---------------- 临时 / 测试残留 ----------------
+tmp_cleanup_*
+*.tmp
+*.log
+
+# ---------------- 编辑器 / IDE ----------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------- 操作系统无关文件 ----------------
+desktop.ini
+Thumbs.db
+ehthumbs.db
+FOLDER.HTT
+NVIDIA Corporation/
